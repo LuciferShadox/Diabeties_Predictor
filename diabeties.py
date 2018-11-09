@@ -34,4 +34,3 @@ print(accuracy_score(y_test,y_pred))
     
         
 
-# Any results you write to the current directory are saved as output.
