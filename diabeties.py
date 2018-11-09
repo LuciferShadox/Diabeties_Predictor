@@ -27,6 +27,17 @@ print cm
 
 print(accuracy_score(y_test,y_pred))
 
+test_output=[['5','116','74','0','0','25.6','0.201','30']]#test output
+test_output=np.array(test_output).reshape(1,-1)
+test_output=test_output.astype(np.float64)
+pred=classifier.predict(test_output)
+print pred
+if (pred==1):
+    print "has diabeties"
+else :
+    print "no diabeties"
+
+
 
 
 
