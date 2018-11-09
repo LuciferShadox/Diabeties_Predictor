@@ -23,8 +23,9 @@ y_pred=classifier.predict(x_test) #predict output
 
 
 cm=confusion_matrix(y_test,y_pred)#comparing with test cases
+print "confusion matrix"
 print cm
-
+print "Accuracy:"
 print(accuracy_score(y_test,y_pred))
 
 test_output=[['5','116','74','0','0','25.6','0.201','30']]#test output
