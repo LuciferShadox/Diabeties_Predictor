@@ -1,6 +1,3 @@
-# This Python 3 environment comes with many helpful analytics libraries installed
-# It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
-# For example, here's several helpful packages to load in 
 #importing library finctions
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -29,7 +26,7 @@ cm=confusion_matrix(y_test,y_pred)#comparing with test cases
 print cm
 
 print(accuracy_score(y_test,y_pred))
-plt.plot(y_test,y_pred,color='red', label="NB")
+
 
 
 
